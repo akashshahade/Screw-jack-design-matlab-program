@@ -1,8 +1,6 @@
 clc;
 clear;
 fprintf('**** Design of Screwjack ****\n\n');
-fprintf('Software by - Akash S Shahade.\n');
-fprintf('M.Tech Cad/Cam First Year, Visveswaraya National Institute of Technology,Nagpur\n\n\n');
 
 %----Design of screw----%
 W = 80;

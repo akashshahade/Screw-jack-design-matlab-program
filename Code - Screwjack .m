@@ -3,17 +3,17 @@ clear;
 fprintf('**** Design of Screwjack ****\n\n');
 
 %----Design of screw----%
-W = 80;
-Sst = 300;
-Sss = 120;
-Pb = 18;
-Nf = 5;
-mu = 0.15;
-mu1 = 0.2;
-Snt = 150; %Nut tensile strength
-Snc = 135; %Nut compressive srength
-Sns = 160; %Nut shear strength
-max_lift = 400;
+W = input('Enter Load to be lifted (KN):');
+Sst = input('Enter Screw material Tensile Strength (Mpa):');
+Sss = input('Enter Screw material Shear Strength (Mpa):');
+Pb = input('Enter Bearing pressure between nut and Screw (Mpa):');
+Nf = input('Enter Factor of Safety:');
+mu = input('Enter Coefficient of friction between screw and nut:');
+mu1 = input('Enter coefficient of collar friction:');
+Snt = input('Enter Nut Tensile strength (Mpa):'); %Nut tensile strength
+Snc = input('Enter Nut compressive strength (Mpa):'); %Nut compressive srength
+Sns = input('Enter Nut shear strength (Mpa):'); %Nut shear strength
+max_lift = input('Enter lift height (mm):');
 
 %----Design of screw----%
 

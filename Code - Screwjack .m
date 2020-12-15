@@ -1,7 +1,7 @@
 clc;
 clear;
 fprintf('**** Design of Screwjack ****\n\n');
-
+%----------------------------------------
 %----Design of screw----%
 W = input('Enter Load to be lifted (KN):');
 Sst = input('Enter Screw material Tensile Strength (Mpa):');

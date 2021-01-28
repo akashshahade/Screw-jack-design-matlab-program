@@ -1,5 +1,4 @@
-clc;
-clear;
+clc;clear;
 fprintf('**** Design of Screwjack ****\n\n');
 %----------------------------------------
 %----Design of screw----%
